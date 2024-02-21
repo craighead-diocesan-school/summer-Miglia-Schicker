@@ -1,70 +1,82 @@
-<header>
-<h1>My Summer</h1>
-</header>
+<body>
+  <header>
+    <h1>My Summer</h1>
+  </header>
 
-<main></main>
-<h2>Te Anau and Milford Sound</h2>
+  <main>
+    <h2>Te Anau and Milford Sound</h2>
 
+    <p>During the summer, My family and I went down to Milford Sound as my brother Ivan was starting his job on the cruises. The day before he started working, we were allowed to experience a day cruise so Ivan could see what he would be doing on the boats. Two weeks later, my parents and I drove back down to Te Anau to celebrate New Years with my brother on his days off. We did a few walks and stayed at a place with an amazing view.</p>
 
-  <p>During the summer, My family and I went down to Milford Sound as my brother Ivan was starting his job on the cruises. The day before he started working, we were allowed to experience a day cruise so Ivan could see what he would be doing on the boats. Two weeks later, my parents and I drove back down to Te Anau to celebrate New Years with my brother on his days off. We did a few walks and stayed at a place with an amazing view.</p>
+    <img src="better milford sound pic.jpg" />
+    <img src="post sleepover pic.jpg" />
 
-  <img src="better milford sound pic.jpg" />
-  <img src="post sleepover pic.jpg">
+    <h2>What I did:</h2>
 
+    <ul>
+      <li>Milford Sound Cruise</li>
+      <li>Sleepover with Beth and Hannah</li>
+      <li>Bike rides with Dad</li>
+    </ul>
 
-  <h2>What I did:</h2>
+    <h2>The Sleepover</h2>
 
-  <ul>
-    <li>Milford Sound Cruise</li>
-    <li>Sleepover with Beth and Hannah</li>
-    <li>Bike rides with Dad</li>
-  </ul>
+    <p>
+      In January, Hannah, Beth and I had a three night sleepover; one night at every persons house. The first night was spent at my house where we slept in a three room tent. One room was our sleeping area, one was a storage room and the other was our game/movie/snack room. For dinner, we ate my mums homemade dumplings. This was Beths first time trying dumplings and it is safe to say she loved them. Before bed, we went to the beach and buried Hannah in the sand. The next day we went to Beths house. We had a water fight and then played more uno flip. In the morning we made waffles then went to sailing. Unfortunately there were no dolphins that day but it was still fun. After sailing, we went to Hannahs house for the final night of our sleepover. We slept in the Kanes granny flat and yet again played uno flip. There were five of us playing the game and Hannah made the plan to rig the game so Beth would end up picking up over 50 cards in one go. The next day we went for a swim in Hannahs
+      pool then went home and slept.
+    </p>
 
-<h2>
-    The Sleepover
-</h2>
+    <img src="uno flip.jpg" />
+    <img src="sleepover pic.jpg" />
+  </main>
 
-<p>
-    In January, Hannah, Beth and I had a three night sleepover; one night at every persons house. The first night was spent at my house where we slept in a three room tent. One room was our sleeping area, one was a storage room and the other was our game/movie/snack room. For dinner, we ate my mums homemade dumplings. This was Beths first time trying dumplings and it is safe to say she loved them. Before bed, we went to the beach and buried Hannah in the sand. The next day we went to Beths house. We had a water fight and then played more uno flip. In the morning we made waffles then went to sailing. Unfortunately there were no dolphins that day but it was still fun. After sailing, we went to Hannahs house for the final night of our sleepover. We slept in the Kanes granny flat and yet again played uno flip. There were five of us playing the game and Hannah made the plan to rig the game so Beth would end up picking up over 50 cards in one go. The next day we went for a swim in Hannahs pool then went home and slept.
-</p>
+  <footer>&copy; Miglia Schicker 2024</footer>
+</body>
 
-<img src="uno flip.jpg">
-<img src="sleepover pic.jpg">
+<style>
+  h1 {
+    background: rgb(248, 234, 167);
+    font-family: sans-serif;
+    font-size: 3em;
+    color: rgb(255, 145, 0);
+    text-align: center;
+    text-shadow: 2px 2px white;
+  }
+  h1:hover {
+    background: rgb(248, 248, 126);
+  }
 
-</main>
+  h2 {
+    margin-left: 10%;
+  }
 
-<footer>
-    &copy; Miglia Schicker 2024
-</footer>
+  img {
+    width: 10rem;
+    margin-left: 5rem;
+  }
 
-  <style>
-    h1 {
-      background: rgb(248, 234, 167);
-      font-family: sans-serif;
-      font-size: 3em;
-      color: rgb(255, 145, 0);
-      text-align: center;
-      text-shadow: 2px 2px white;
-    }
-    h1:hover {
-      background: rgb(248, 248, 126);
-    }
-
-    h2 {
-      margin-left: 10%;
-    }
-
-    img {
-    
-      width: 10rem;
-      margin-left: 5rem;
-    }
-
-footer{
+  footer {
     background-color: lightgrey;
     padding: 0.5rem;
     text-align: center;
-}
+  }
 
-  </style>
+  body {
+    display: grid;
+    grid:
+      " h    .    .  " auto
+      " m    m   .  " auto
+      " f   f    f  " auto
+      / auto auto auto;
+  }
 
+  header {
+    grid-area: h;
+  }
+  main {
+    grid-area: m;
+  }
+  footer {
+    grid-area: f;
+  }
+</style>
